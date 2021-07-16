@@ -19,10 +19,9 @@ function hidePhoneNumbers(numbers){
 
     let stringNumbers = numbers.toString();
     for(let i = 0; i < stringNumbers.length; i++){
-        stringNumbers = stringNumbers.replace(stringNumbers[i], 'x');
+    stringNumbers = stringNumbers.replace(stringNumbers[i], 'x').join('');
     };
-    numbers = stringNumbers.join();
-    return numbers;
+    return stringNumbers;
 };
 
 module.exports = {
