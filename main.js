@@ -15,3 +15,6 @@ For example: "XXXXX XXXXXX"
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
+function hidePhoneNumbers(numbers){
+
+};
