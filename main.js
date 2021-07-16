@@ -9,20 +9,15 @@ Your boss has asked if you can hide the clients phone numbers
 due to security reason
 
 You must do this by replacing all digits of the number, stored in an array, with
-the letter "X"
+the letter "X" and keeping the first 0 and 7 digit at the start and the final two digits
 
-For example: "XXXXX XXXXXX"
+For example: "07XXX XXXX67"
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
 function hidePhoneNumbers(numbers){
-
-    let stringNumbers = numbers.toString();
-    for(let i = 0; i < stringNumbers.length; i++){
-    stringNumbers = stringNumbers.replace(stringNumbers[i], 'x').join('');
-    };
-    return stringNumbers;
-};
+   
+}
 
 module.exports = {
     hidePhoneNumbers
